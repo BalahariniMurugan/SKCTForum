@@ -1,0 +1,67 @@
+#signup-box {
+    
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        padding-top: 150px;
+        justify-content: center;
+        align-items: center;
+        background-image: url('./stock-vector-hand-drawn-doodle-question-marks-1727032048.jpg'); /* Replace with the path to your image */
+        background-size: cover; /* Ensure the image covers the entire area */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Prevent the image from repeating */
+  }
+  
+  #signup-box form {
+    background-color: #7676c49c; /* Changed to light violet */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-box {
+    margin-bottom: 15px;
+  }
+  
+  .user-box input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .user-box label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  button#signupBtn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button#signupBtn:hover {
+    background-color: #007bff;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
